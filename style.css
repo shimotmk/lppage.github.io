@@ -1,0 +1,104 @@
+.btn-secondary {
+    color: black;
+    background-color: rgba(33, 39, 98, 0.5);
+}
+header .btn{
+  padding: .0rem .0rem;
+  border-style: hidden;
+  background: rgba(0,0,0,0);
+}
+header .btn:hover{
+  color: #333;
+  background: #fff;
+}
+.btn-group:hover > .dropdown-menu{
+  display: block;
+}
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  /*margin:auto;*/
+}
+header {
+  height: 10%;
+  width: 100%;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+.container{
+  text-align: center;
+}
+.top-wrapper p{
+  color: #b3aeb5;
+}
+btn btn-danger btn-lg btn-block{
+  text-align: center;
+}
+footer{
+  text-align:center;
+}
+footer img{
+  text-align:center;
+  width: 50%;
+}
+footer p{
+  color: #b3aeb5;
+  font-size:12px;
+}
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #b4b4b4;
+  opacity: 0.6;
+  border-radius: 50%;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: FontAwesome;
+  content: '\f106';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.voice tr {
+width: 100%;
+display: inline-table;
+height:60px;
+}
+
+.voice table{
+ height:300px;
+ display: -moz-groupbox;
+}
+.voice tbody{
+  height: 200px;
+  width: 100%;
+}
+.voice h2{
+  font-size:34px;
+}
+.pagetop-btn {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+}
